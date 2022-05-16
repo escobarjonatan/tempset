@@ -8,7 +8,7 @@ const Hero = () => (
       <br />
       <a
         className="underline mt-4 focus:ring-2 focus:ring-red-600 active:ring-red-500 focus:outline-none rounded-sm"
-        href="tel:214-659-3358"
+        href="tel:832-762-1842"
       >
         832-762-1842
       </a>
