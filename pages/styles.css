@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../public/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../public/fonts/Montserrat/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ethnocen";
+  src: url(../public/fonts/Ethnocen/Ethnocen.woff);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+:root {
+  --republic-gray: #f3f4f6;
+}
+
+body {
+  background-color: var(--republic-gray);
+}
+
+/* Custom CSS for Flickity slideshow */
+.flickity-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next {
+  right: 0;
+}
+
+.previous {
+  left: 0;
+}
+
+.flickity-prev-next-button {
+  width: 75px;
+  height: 75px;
+  background: transparent;
+}
+
+.flickity-page-dots,
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: var(--republic-gray);
+}
