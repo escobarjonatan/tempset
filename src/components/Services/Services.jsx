@@ -1,6 +1,6 @@
 import React from "react";
 import Service from "../Service/Service.jsx";
-import styles from "./Team.module.css";
+import styles from "./Services.module.css";
 import fan from '../../../public/images/serviceIcons/fan.svg';
 import installation from '../../../public/images/serviceIcons/installation.svg';
 import maintenance from '../../../public/images/serviceIcons/maintenance.svg';
@@ -9,7 +9,7 @@ import worker from '../../../public/images/serviceIcons/worker.svg';
 
 
 
-const Team = () => (
+const Services = () => (
   <section id="services" className="p-8 mt-11 bg-white rounded-lg shadow">
     <h2 className="font-bold sm:text-3xl text-xl mb-5">
       Our Professional Services
@@ -29,4 +29,4 @@ const Team = () => (
   </section>
 );
 
-export default Team;
+export default Services;

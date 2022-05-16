@@ -7,7 +7,7 @@ import Footer from "../src/components/Footer/Footer.jsx";
 import Header from "../src/components/Header/Header.jsx";
 import Hero from "../src/components/Hero/Hero.jsx";
 import MetaHead from "../src/components/MetaHead/MetaHead.jsx";
-import Team from "../src/components/Team/Team.jsx";
+import Services from "../src/components/Services/Services.jsx";
 
 const Home = () => (
   <>
@@ -17,7 +17,7 @@ const Home = () => (
     <div className="max-w-7xl mx-auto text-center px-7">
       <About />
       <Carousel />
-      <Team />
+      <Services />
       {/* <Faq /> */}
       <Contact />
     </div>
