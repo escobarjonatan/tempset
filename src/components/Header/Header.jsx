@@ -29,14 +29,14 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-gray-800">
+      <nav className="bg-black">
         <div className="max-w-7xl mx-auto px-2 py-5 sm:px-6 lg:px-8 sm:pt-4 sm:pb-6">
           <div className="relative flex items-center justify-between h-16">
             <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
               <button
                 aria-controls="mobile-menu"
                 aria-expanded="false"
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-inset focus:ring-4 focus:ring-gray-300"
+                className="inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500"
                 onClick={toggleMenu}
                 type="button"
               >
@@ -75,30 +75,30 @@ const Header = () => {
               </button>
             </div>
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-              <Logo wrapperClasses="text-white sm:hidden block" />
+              <Logo wrapperClasses="sm:hidden block" />
               <div className="hidden sm:block sm:w-full">
                 <div className="flex items-center justify-center md:space-x-12 space-x-4">
                   <Link href="/">
                     <a
                       aria-current="page"
-                      className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
+                      className="text-white px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500"
                     >
                       Home
                     </a>
                   </Link>
                   <Link href="#about">
-                    <a className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold">
+                    <a className="text-white px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500">
                       About
                     </a>
                   </Link>
-                  <Logo wrapperClasses="text-white sm:block hidden" />
+                  <Logo wrapperClasses="sm:block hidden" />
                   <Link href="#services">
-                    <a className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold">
+                    <a className="text-white px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500">
                       Services
                     </a>
                   </Link>
                   <Link href="#contact">
-                    <a className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold">
+                    <a className="text-white px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500">
                       Contact Us
                     </a>
                   </Link>
@@ -110,13 +110,13 @@ const Header = () => {
         <div
           className={`${
             isMobile && isMenuOpen ? "block" : "hidden"
-          } absolute bg-gray-800 w-full z-50`}
+          } absolute bg-black w-full z-50`}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 text-center">
             <Link href="/">
               <a
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                className="text-white block px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500"
                 onClick={handleNavigation}
               >
                 Home
@@ -124,7 +124,7 @@ const Header = () => {
             </Link>
             <Link href="#about">
               <a
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                className="text-white block px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500"
                 onClick={handleNavigation}
               >
                 About
@@ -132,7 +132,7 @@ const Header = () => {
             </Link>
             <Link href="#services">
               <a
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                className="text-white block px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500"
                 onClick={handleNavigation}
               >
                 Services
@@ -140,7 +140,7 @@ const Header = () => {
             </Link>
             <Link href="#contact">
               <a
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                className="text-white block px-3 py-2 rounded-md font-bold hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500"
                 onClick={handleNavigation}
               >
                 Contact Us

@@ -1,9 +1,9 @@
 const Footer = () => (
-  <footer className='relative bg-gray-800 text-gray-300 text-center py-10 sm:px-6 lg:px-8 mt-20'>
+  <footer className='relative bg-black text-white text-center py-10 sm:px-6 lg:px-8 mt-20'>
     <div className='flex max-w-sm mx-auto justify-around mb-8'>
       <a
         aria-label='Instagram link for Temptset HVAC Services'
-        className='p-2 hover:text-gray-50'
+        className='p-2 hover:text-teal-500 active:text-teal-600 rounded-md focus:outline-none focus:ring-4 focus:ring-teal-600 active:ring-teal-500'
         href='https://www.instagram.com/tempsethvac/'
         rel='noreferrer'
         target='_blank'
@@ -28,10 +28,10 @@ const Footer = () => (
         href='https://www.facebook.com/tempsethvac/'
         rel='noreferrer'
         target='_blank'
-        className='p-2 hover:text-gray-50'
+        className='p-2 hover:text-teal-500 active:text-teal-600 rounded-md focus:outline-none focus:ring-4 focus:ring-teal-600 active:ring-teal-500'
       >
         <svg
-          className='text-xl hover:text-gray-50 transition-colors duration-200'
+          className='text-xl transition-colors duration-200'
           fill='currentColor'
           height='30'
           viewBox='0 0 1792 1792'

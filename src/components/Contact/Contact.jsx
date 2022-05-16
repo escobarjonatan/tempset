@@ -14,13 +14,13 @@ const Location = () => {
           <div className='sm:w-1/2 w-full self-center'>
             <div className='mb-3'>
               <span className='font-bold'>Phone: </span>
-              <a className='underline' href='tel:832-762-1842'>
+              <a className='underline focus:ring-2 focus:ring-red-600 active:ring-red-500 focus:outline-none rounded-sm' href='tel:832-762-1842'>
                 832-762-1842
               </a>
             </div>
             <div className='mb-3'>
               <span className='font-bold'>E-Mail: </span>
-              <a className='underline' href='mailto:tempsethvac@gmail.com'>
+              <a className='underline focus:ring-2 focus:ring-red-600 active:ring-red-500 focus:outline-none rounded-sm' href='mailto:tempsethvac@gmail.com'>
                 tempsethvac@gmail.com
               </a>
             </div>

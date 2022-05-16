@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   mode: "jit",
   purge: [
@@ -11,6 +13,18 @@ module.exports = {
         sans: ["Montserrat", "Arial", "sans-serif"],
         mono: ["Ethnocen", "Arial", "sans-serif"],
       },
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      red: colors.red,
+      teal: {
+        500: "#00fffd",
+        600: "#00dcda"
+      }
     },
   },
   variants: {

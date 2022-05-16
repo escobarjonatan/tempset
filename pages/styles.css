@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   src: url(../public/fonts/Montserrat/Montserrat-Regular.ttf);
   font-style: normal;
   font-weight: 500;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   src: url(../public/fonts/Montserrat/Montserrat-Bold.ttf);
   font-style: normal;
   font-weight: 600;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Ethnocen";
+  font-family: 'Ethnocen';
   src: url(../public/fonts/Ethnocen/Ethnocen.woff);
   font-style: normal;
   font-weight: 400;
@@ -44,17 +44,24 @@ body {
 }
 
 .next {
-  right: 0;
+  right: 16px;
+  padding: 4px;
 }
 
 .previous {
-  left: 0;
+  left: 16px;
+  padding: 4px;
 }
 
 .flickity-prev-next-button {
   width: 75px;
   height: 75px;
   background: transparent;
+}
+
+.flickity-prev-next-button:focus {
+  outline: 4px solid rgba(220, 38, 38, var(--tw-text-opacity)); 
+  border-radius: 4px;
 }
 
 .flickity-page-dots,

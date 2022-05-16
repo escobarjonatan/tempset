@@ -4,7 +4,7 @@ const Logo = ({ wrapperClasses = "" }) => (
   <Link href="/">
     <a
       aria-label="Navigate to Tempset HVAC Services home page"
-      className={wrapperClasses}
+      className={`text-white px-3 py-2 font-bold rounded-md focus:outline-none focus:ring-4 focus:ring-red-600 active:ring-red-500 ${wrapperClasses}`}
       title="Tempset HVAC Services Home"
     >
       <div className="relative text-center">
