@@ -10,7 +10,7 @@ const About = () => (
         Tempset is a family owned HVAC company in Houston, Texas offering
         residential and commercial services. We provide the ultimate comfort
         experience through professional service and honest guidance for each and
-        every customer.
+        every customer. Especially daikin units!!
       </p>
     </section>
   </>

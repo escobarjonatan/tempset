@@ -6,7 +6,7 @@ const Individual = ({
   icon,
   name = 'Service Name',
 }) => (
-  <div className='text-center mb-4 opacity-90 block relative m-2 p-4 sm:m-3 sm:p-3 md:m-4 hover:bg-gray-100 rounded-lg shadow h-full'>
+  <div className='text-center mb-4 opacity-90 block relative m-2 p-4 sm:m-3 sm:p-3 md:m-4 rounded-lg h-full shadow-2xl'>
     <div className='text-center mb-4'>
       <p className='text-2xl text-gray-800 mb-4'>{name}</p>
       <Image src={icon} height="50px" width="50px"/>
