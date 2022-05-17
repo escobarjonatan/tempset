@@ -32,12 +32,12 @@ const Services = () => (
       <Service
         name="Installations"
         icon={installation}
-        description="Call now to schedule an installation! Our technicians will ensure your unit is safely installed. Not sure which unit is best for your home or business? Give us a call and let us help you make that choice easier for you."
+        description="Call now to schedule an installation! Our technicians will ensure your unit is safely installed. Not sure which unit is best for your home or business? Give us a call and let us help make that choice easier for you."
       />
       <Service
         name="Maintenance"
         icon={maintenance}
-        description="We can schedule reocurring service appointments to keep your unit running and maximize the lifespan."
+        description="We can schedule reoccurring service appointments to keep your unit running and maximize the lifespan."
       />
       <Service
         name="Repairs"
