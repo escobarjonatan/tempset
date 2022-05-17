@@ -8,11 +8,21 @@ const Logo = ({ wrapperClasses = "" }) => (
       title="Tempset HVAC Services Home"
     >
       <div className="relative text-center">
-        <p className="font-mono text-3xl">TEMP<span style={{ background: '-webkit-linear-gradient( #dc2626 35%, #00fffd 50%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>S</span>ET</p>
-        <p className="bg-red-500 h-px"></p>
-        <p className="font-sans font-bold text-teal-500">
-          HVAC SERVICES
+        <p className="font-mono text-3xl">
+          TEMP
+          <span
+            style={{
+              background: "-webkit-linear-gradient( #dc2626 35%, #00fffd 50%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            S
+          </span>
+          ET
         </p>
+        <p className="bg-red-500 h-px"></p>
+        <p className="font-sans font-bold text-teal-500">HVAC SERVICES</p>
       </div>
     </a>
   </Link>

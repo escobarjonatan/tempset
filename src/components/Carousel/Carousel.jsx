@@ -20,42 +20,27 @@ const Carousel = () => (
       height="960"
       width="1280"
     />
-     <Image
+    <Image
       src={slideTwo}
       alt="Commercial HVAC unit"
       height="960"
       width="1280"
     />
-        <Image
-      src={slideThree}
-      alt="Home exterior"
-      height="960"
-      width="1280"
-    />
-     <Image
-      src={slideFour}
-      alt="HVAC filter"
-      height="960"
-      width="1280"
-    />
-        <Image
+    <Image src={slideThree} alt="Home exterior" height="960" width="1280" />
+    <Image src={slideFour} alt="HVAC filter" height="960" width="1280" />
+    <Image
       src={slideFive}
       alt="Goodman brand HVAC unit"
       height="960"
       width="1280"
     />
-     <Image
+    <Image
       src={slideSix}
       alt="Roof HAVAC unit shown"
       height="960"
       width="1280"
     />
-        <Image
-      src={slideSeven}
-      alt="HVAC wiring shown"
-      height="960"
-      width="1280"
-    />
+    <Image src={slideSeven} alt="HVAC wiring shown" height="960" width="1280" />
   </Flickity>
 );
 

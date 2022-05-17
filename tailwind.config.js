@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
@@ -15,16 +15,16 @@ module.exports = {
       },
     },
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
+      transparent: "transparent",
+      current: "currentColor",
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
       red: colors.red,
       teal: {
         500: "#00fffd",
-        600: "#00dcda"
-      }
+        600: "#00dcda",
+      },
     },
   },
   variants: {

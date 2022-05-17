@@ -14,7 +14,10 @@ const MetaHead = () => (
     <meta itemProp="name" content="Tempset HVAC Services in Houston, Texas" />
     <meta itemProp="thumbnailUrl" content="/images/logo.jpeg" />
     <meta itemProp="url" content="https://www.republicbarbershopdallas.com/" />
-    <meta name="description" content="Tempset HVAC Services in Houston, Texas" />
+    <meta
+      name="description"
+      content="Tempset HVAC Services in Houston, Texas"
+    />
     <meta
       name="keywords"
       content="HVAC services in houston, pasadena, pearland, sugarland, katy, cypress, humble and other surrounding cities in houston, texas."
@@ -25,7 +28,10 @@ const MetaHead = () => (
       content="Tempset HVAC Services in Houston, Texas"
     />
     <meta name="twitter:image" content="/images/logo.jpeg" />
-    <meta name="twitter:title" content="Tempset HVAC Services in Houston, Texas" />
+    <meta
+      name="twitter:title"
+      content="Tempset HVAC Services in Houston, Texas"
+    />
     <meta
       name="twitter:url"
       content="https://www.republicbarbershopdallas.com/"

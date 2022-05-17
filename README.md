@@ -1,5 +1,7 @@
 # Tempset HVAC Services, made with [Next.js](https://nextjs.org/).
+
 The purpose of this repository is to create a website for a local HVAC technician. This project uses the following technologies:
+
 - React
 - TailwindCSS
 - Flickity

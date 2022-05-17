@@ -21,7 +21,7 @@ const Hero = () => (
       height="1008"
       width="1792"
       src={hero}
-      style={{filter: "brightness(35%)"}}
+      style={{ filter: "brightness(35%)" }}
     />
   </section>
 );
