@@ -13,7 +13,7 @@ const MetaHead = () => (
     <meta itemProp="image" content="/images/logo.jpeg" />
     <meta itemProp="name" content="Tempset HVAC Services in Houston, Texas" />
     <meta itemProp="thumbnailUrl" content="/images/logo.jpeg" />
-    <meta itemProp="url" content="https://www.republicbarbershopdallas.com/" />
+    <meta itemProp="url" content="https://www.tempsethvac.com/" />
     <meta
       name="description"
       content="Tempset HVAC Services in Houston, Texas"
@@ -34,7 +34,7 @@ const MetaHead = () => (
     />
     <meta
       name="twitter:url"
-      content="https://www.republicbarbershopdallas.com/"
+      content="https://www.tempsethvac.com/"
     />
     {/* TODO: UPDATE URL HERE */}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,7 +57,7 @@ const MetaHead = () => (
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content="https://www.republicbarbershopdallas.com/"
+      content="https://www.tempsethvac.com/"
     />
   </Head>
 );
